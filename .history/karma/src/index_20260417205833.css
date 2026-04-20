@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    /* Changed to light background & dark text */
+    @apply bg-light-bg text-slate-text font-body overflow-x-hidden;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold text-slate-text;
+  }
+}
+
+.glass-card {
+  /* Changed to bright, airy glassmorphism */
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+}
+
+.group:hover .glass-card {
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+@media screen and (max-width:545px) {
+  #img1{
+    margin-top: 200px;
+  }
+}
+
+@media screen and(max-width:545px) {
+  #
+}
