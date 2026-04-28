@@ -59,7 +59,7 @@ export const projectDetailsMap = {
     role: 'Mobile Architecture & UI',
     problem: 'A local startup needed a cross-platform food delivery app to compete with giants. They required a fast, bug-free UX, real-time Google Maps driver tracking, and instant push notifications.',
     solution: 'Developed a robust cross-platform app using React Native and Firebase. It features sub-second load times, real-time geolocation syncing, and an intuitive, mouth-watering user interface.',
-    techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'Stripe API']
+    techStack: ['React Native', 'Firebase', 'Google Maps API', 'Node.js', 'Redux', 'Push Notifications']
   },
   '4': {
     id: '4',
@@ -107,7 +107,7 @@ export const projectDetailsMap = {
       'https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&q=80'
     ],
     github: null,
-    liveUrl: 'https://instagram.com/karma.ai_',
+    liveUrl: 'https://instagram.com/stylecart',
     client: 'StyleCart Boutique',
     timeline: 'Ongoing',
     role: 'Social Media Management',

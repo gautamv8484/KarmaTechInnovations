@@ -42,7 +42,7 @@ export const projectDetailsMap = {
     role: 'Frontend 3D Engineering',
     problem: 'An automotive dealer wanted a premium, highly interactive 3D web experience where potential buyers could customize car colors, rims, and interior textures directly in the browser.',
     solution: 'Engineered a highly optimized WebGL 3D interface using React Three Fiber. Users can smoothly rotate, zoom, and customize the vehicle with real-time lighting and reflection processing.',
-    techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'Stripe API']
+    techStack: ['React', 'Three.js', 'React Three Fiber', 'GSAP', 'Framer Motion', 'Zustand']
   },
   '3': {
     id: '3',
@@ -52,14 +52,14 @@ export const projectDetailsMap = {
     images: [
       'brickbazaar.png'
     ],
-    github: 'https://github.com/gautmav8484/brickbazaar',
-    liveUrl: 'https://brickbazaar.vercel.app',
+    github: 'https://github.com/karmatech/brickbazaar',
+    liveUrl: 'https://play.google.com/store/apps/details?id=com.foodieexpress',
     client: 'Construction Company',
     timeline: '8 Weeks',
     role: 'Mobile Architecture & UI',
     problem: 'A local startup needed a cross-platform food delivery app to compete with giants. They required a fast, bug-free UX, real-time Google Maps driver tracking, and instant push notifications.',
     solution: 'Developed a robust cross-platform app using React Native and Firebase. It features sub-second load times, real-time geolocation syncing, and an intuitive, mouth-watering user interface.',
-    techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'Stripe API']
+    techStack: ['React Native', 'Firebase', 'Google Maps API', 'Node.js', 'Redux', 'Push Notifications']
   },
   '4': {
     id: '4',
@@ -107,7 +107,7 @@ export const projectDetailsMap = {
       'https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&q=80'
     ],
     github: null,
-    liveUrl: 'https://instagram.com/karma.ai_',
+    liveUrl: 'https://instagram.com/stylecart',
     client: 'StyleCart Boutique',
     timeline: 'Ongoing',
     role: 'Social Media Management',

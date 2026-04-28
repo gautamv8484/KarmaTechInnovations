@@ -107,7 +107,7 @@ export const projectDetailsMap = {
       'https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&q=80'
     ],
     github: null,
-    liveUrl: 'https://instagram.com/karma.ai_',
+    liveUrl: 'https://instagram.com/stylecart',
     client: 'StyleCart Boutique',
     timeline: 'Ongoing',
     role: 'Social Media Management',
